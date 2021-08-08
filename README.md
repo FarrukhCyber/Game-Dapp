@@ -38,8 +38,20 @@ User 1's asset's cost is 10 Pasha and user 2 has following options:
 	Either pay in pasha coin.
 	Or trade with another asset
 
-Implementation: 
+# Implementation: 
 
 We have used python programming language and used socket programming to establish connection between client and server. We have used Object Oriented Programming for
 maintaining the block of blockchain. 
+
+How to run Game dapp:
+
+first run the miner.py of Game Dapp, for that execute following command:
+```
+python3 miner.py -p <port_num>
+```
+
+then run the peer.py of Game Dapp, for that execute following command:
+```
+python3 client.py -p <server_port_num> -u <username>
+```
  
